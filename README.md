@@ -65,3 +65,7 @@ Vedi il file `LICENSE` per i dettagli.
 ## Note legali
 
 I nomi di prodotti, servizi e aziende citati appartengono ai rispettivi proprietari e sono utilizzati esclusivamente a scopo descrittivo.
+
+---
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J31RT9MO)
