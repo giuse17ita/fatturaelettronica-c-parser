@@ -1,0 +1,24 @@
+PROJECT_NAME           = "fatturaelettronica-c-parser"
+
+PROJECT_BRIEF          = "parser in c per fatture elettroniche"
+
+OUTPUT_DIRECTORY       = docs
+
+INPUT                  = include
+FILE_PATTERNS          = *.h
+
+RECURSIVE              = YES
+
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+
+
+DISABLE_INDEX = YES
+GENERATE_TREEVIEW = NO
+
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+QUIET                  = YES
+
