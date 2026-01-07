@@ -67,7 +67,9 @@ int check_importi(Fattura* f) {
 	}
 	// controllo solo sulla parte intera per evitare
 	// difformità in caso di arrotondamenti
-	if ( t == f->data.importo_totale_documento );
-	return 1;
+	if ( (int)t == (int)f->data.importo_totale_documento )
+		return 1;
+	else
+		return 0;
 }
 

@@ -15,10 +15,10 @@ int main(int argc, char** argv) {
 
 	xmlDocPtr doc=NULL; 
 	Fattura *f = parse_fattura_elettronica(argv[1],&doc);
-
 	freeDoc(doc);
+
 	print_fattura_elettronica(f);
-	check_importi(f);
+	if(check_importi(f)) printf("\nIMPORTI OK\n");
 	free(f->d);
 	free(f);
 	return 0;
