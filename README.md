@@ -33,6 +33,21 @@ Adatta il comando in base alla struttura del progetto.
 
 ---
 
+## Bench
+
+Per MacOs prima installare ***hyperfine***
+
+```
+brew install hyperfine
+```
+```
+export XML_FILE "PATH TO FATTURA ELETTRONICA XML"
+
+make bench
+```
+
+---
+
 ## Dipendenze e Licenze
 
 Questo progetto **linka dinamicamente** a librerie di sistema e **non include codice sorgente di terze parti**.
